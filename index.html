@@ -3,19 +3,38 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS only -->
+
     <title>TV Show Project | Ansu Jammeh (ansuj9123)</title>
     <link href="style.css" rel="stylesheet" />
     <link rel="icon" href="/favicon.ico" type="image/x-icon" />
   </head>
 
   <body>
-    <div id="root">
-    </div>
+    <p id="data">
+      The episode data is coming from
+      <a target="_blank" href="https://tvmaze.com/">Tv Maze</a>
+    </p>
+    <select id="select">
+      <option value="all">All</option>
+    </select>
+    <select id="showselect"></select>
+    <input id="searchInput" type="text" placeholder="Search Show" />
+    <div id="container"></div>
 
     <!-- Loads a provided function called getAllEpisodes() which returns all episodes -->
     <script src="episodes.js"></script>
+    <script src="shows.js"></script>
 
     <!-- Loads YOUR javascript code -->
     <script src="script.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+
   </body>
 </html>

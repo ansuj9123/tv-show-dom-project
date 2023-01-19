@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "fetch": "^1.1.0"
+  },
+  "name": "tv-show-dom-project",
+  "description": "A starting point for CYF's TV show DOM project",
+  "version": "1.0.0",
+  "main": "api.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ansuj9123/tv-show-dom-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ansuj9123/tv-show-dom-project/issues"
+  },
+  "homepage": "https://github.com/ansuj9123/tv-show-dom-project#readme"
+}

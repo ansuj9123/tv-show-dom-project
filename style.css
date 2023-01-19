@@ -1,3 +1,104 @@
-#root {
-  color: red;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+body {
+  background-image: url(/images/wallpaper.jpg);
+  font-size: 20px;
+  padding: 30px;
+  
+}
+
+#data {
+  color: white;
+}
+
+#data a {
+  color: black;
+}
+#container {
+   display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px; 
+   
+}
+
+/*images*/
+
+#container img {
+  width: 100%;
+
+  border: 1px solid white;
+  padding: 1px;
+  opacity: 2000;
+}
+
+img:hover {
+  opacity: 1.0;
+}
+
+img {
+  display: inline-block;
+  vertical-align: middle;
+
+  max-width: 100%;
+  height: auto;
+}
+
+img:hover {
+  transform: scaleX(-1);
+  
+}
+
+#container div {
+  /* display: grid;
+  justify-content: center;
+  background-color: whitesmoke;
+  display: inline-block;
+  vertical-align: middle;     */
+  
+   color: black;
+   border: 5px solid #444;
+}
+
+#searchInput {
+  outline: none;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border-color: black;
+  padding: 6px;
+}
+
+#showselect {
+  outline: none;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border-color: black;
+  padding: 6px;
+}
+
+#select {
+  outline: none;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border-color: blue;
+  padding: 6px;
+}
+h2{
+  color: black;
+}
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
